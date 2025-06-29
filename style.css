@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peiqi Yang | Academic Homepage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Professor Peiqi Yang</h1>
+    <p>School of Geography, Nanjing Normal University</p>
+    <nav>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#apps">Apps</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>About Me</h2>
+      <p>I specialize in remote sensing modeling and vegetation radiative transfer theory, with a focus on SIF, PRI, and 3D canopy structure simulations.</p>
+    </section>
+
+    <section id="apps">
+      <h2>🌿 Online Apps</h2>
+      <div class="app-grid">
+        <div class="app-card">
+          <h3>SoilRTM</h3>
+          <p>Soil radiative transfer model visualized via Streamlit.</p>
+          <a href="https://soilRTM.streamlit.app" target="_blank">Open App →</a>
+        </div>
+        <div class="app-card">
+          <h3>LeafRTM</h3>
+          <p>Leaf-level reflectance and transmittance simulation using PROSPECT-D.</p>
+          <a href="https://leafRTM.streamlit.app" target="_blank">Open App →</a>
+        </div>
+        <div class="app-card">
+          <h3>CanopyRTM</h3>
+          <p>Canopy-level reflectance modeling based on PROSAIL.</p>
+          <a href="https://canopyRTM.streamlit.app" target="_blank">Open App →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Quantitative Remote Sensing of Vegetation</li>
+        <li>Radiative Transfer Modeling (Leaf, Soil, Canopy)</li>
+        <li>Sun-Induced Fluorescence (SIF) and Photochemical Reflectance Index (PRI)</li>
+        <li>3D Forest Structure Reconstruction</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+      <p>To be added...</p>
+    </section>
+
+    <section id="team">
+      <h2>Research Team</h2>
+      <p>Collaborators, students, and lab members...</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:p.yang@njnu.edu.cn">p.yang@njnu.edu.cn</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Peiqi Yang. Hosted via GitHub Pages.</p>
+  </footer>
+</body>
+</html>
