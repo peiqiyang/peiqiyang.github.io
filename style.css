@@ -1,79 +1,74 @@
-<!DOCTYPE html>
-<html lang="zh">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Peiqi Yang | Academic Homepage</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Professor Peiqi Yang</h1>
-    <p>School of Geography, Nanjing Normal University</p>
-    <nav>
-      <a href="#research">Research</a>
-      <a href="#publications">Publications</a>
-      <a href="#apps">Apps</a>
-      <a href="#team">Team</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <main>
-    <section id="intro">
-      <h2>About Me</h2>
-      <p>I specialize in remote sensing modeling and vegetation radiative transfer theory, with a focus on SIF, PRI, and 3D canopy structure simulations.</p>
-    </section>
-
-    <section id="apps">
-      <h2>🌿 Online Apps</h2>
-      <div class="app-grid">
-        <div class="app-card">
-          <h3>SoilRTM</h3>
-          <p>Soil radiative transfer model visualized via Streamlit.</p>
-          <a href="https://soilRTM.streamlit.app" target="_blank">Open App →</a>
-        </div>
-        <div class="app-card">
-          <h3>LeafRTM</h3>
-          <p>Leaf-level reflectance and transmittance simulation using PROSPECT-D.</p>
-          <a href="https://leafRTM.streamlit.app" target="_blank">Open App →</a>
-        </div>
-        <div class="app-card">
-          <h3>CanopyRTM</h3>
-          <p>Canopy-level reflectance modeling based on PROSAIL.</p>
-          <a href="https://canopyRTM.streamlit.app" target="_blank">Open App →</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="research">
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Quantitative Remote Sensing of Vegetation</li>
-        <li>Radiative Transfer Modeling (Leaf, Soil, Canopy)</li>
-        <li>Sun-Induced Fluorescence (SIF) and Photochemical Reflectance Index (PRI)</li>
-        <li>3D Forest Structure Reconstruction</li>
-      </ul>
-    </section>
-
-    <section id="publications">
-      <h2>Selected Publications</h2>
-      <p>To be added...</p>
-    </section>
-
-    <section id="team">
-      <h2>Research Team</h2>
-      <p>Collaborators, students, and lab members...</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:p.yang@njnu.edu.cn">p.yang@njnu.edu.cn</a></p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Peiqi Yang. Hosted via GitHub Pages.</p>
-  </footer>
-</body>
-</html>
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background-color: #004d40;
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+header h1 {
+  margin-bottom: 0.3rem;
+}
+nav a {
+  margin: 0 0.8rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+  margin-top: 2.5rem;
+  color: #00796b;
+}
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.app-card {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+}
+.app-card h3 {
+  margin-top: 0;
+  color: #004d40;
+}
+.app-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #00796b;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.app-card a:hover {
+  background-color: #004d40;
+}
+footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
